@@ -42,18 +42,18 @@ var bmi = function(height, weight) {
 var convertToF = function(temp) {
   return (temp * 1.8) + 32;
 }
- var convertToC = function(temp) {
-   return ((temp - 32) * 5) / 9;
- }
+var convertToC = function(temp) {
+ return ((temp - 32) * 5) / 9;
+}
 
- //var tempF = parseFloat(prompt("What is the current temperature in Farenheit?"));
- //var tempC = parseFloat(prompt("What is the current temperature in Celsius?"));
+//var tempF = parseFloat(prompt("What is the current temperature in Farenheit?"));
+//var tempC = parseFloat(prompt("What is the current temperature in Celsius?"));
 
- //alert(convertToF(tempC));
- //alert(convertToC(tempF));
- var convertToGallon = function(liter) {
-   return liter * 0.264172;
- }
+//alert(convertToF(tempC));
+//alert(convertToC(tempF));
+var convertToGallon = function(liter) {
+ return liter * 0.264172;
+}
 
 //var userInput = parseFloat(prompt("Enter a volume in liters"));
 
