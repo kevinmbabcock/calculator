@@ -55,6 +55,17 @@ var convertToF = function(temp) {
    return liter * 0.264172;
  }
 
-var userInput = parseFloat(prompt("Enter a volume in liters"));
+//var userInput = parseFloat(prompt("Enter a volume in liters"));
 
-alert(convertToGallon(userInput));
+//alert(convertToGallon(userInput));
+
+$(document).ready(function() {
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    var number1 = parseInt($("#add1").val());
+    var number2 = parseInt($("#add2").val());
+    var result = add(number1, number2);
+    $("#output").text(result);
+
+  });
+});
